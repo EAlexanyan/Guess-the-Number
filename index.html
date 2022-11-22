@@ -4,9 +4,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess the Number</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
 </head>
 <body>
-    
+     <div class="container">
+          <div class="canvas">
+               <div class="desc">
+                  <h1>Guess the Number Game</h1>
+                  <p>The computer guessed a number from 1 to 100. Your task is to guess it.</p>
+               </div>
+               <div class="num">
+                  <label>Your number:</label>
+                  <input type="text">
+                  <button>Verify</button>
+               </div>
+               <div class="result">
+                    <div class="result-check">
+                        <span class="result-check-res">Result:</span>
+                        <span class="result-check-out"></span>
+                    </div>
+                    <div class="result-help">
+                        <span class="result-help-res">Clue:</span>
+                        <span class="result-help-out"></span>
+                    </div>
+                    <div class="result-count">
+                        <span class="result-count-res">Number of attempts:</span>
+                        <span class="result-count-out"></span>
+                    </div>
+               </div>
+          </div>
+     </div>
 </body>
 </html>
